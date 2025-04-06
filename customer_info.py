@@ -31,4 +31,6 @@ contact_var = tk.StringVar(value=contact_options[0])
 dropdown = ttk.Combobox(root, textvariable=contact_var, values=contact_options, state="readonly")
 dropdown.pack()
 
+tk.Button(root, text="Submit", bg="green", fg="white").pack(pady=20)
+
 root.mainloop()
